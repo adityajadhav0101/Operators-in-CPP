@@ -29,4 +29,5 @@ Marks are entered by the user and evaluated using relational and logical operato
 The program takes two inputs (x and y) and uses relational and logical operators to determine the point’s location. It identifies the quadrant (I–IV), origin, or axis by evaluating the signs and values of the coordinates.
 
 **🧠 Conclusion**
+
 These programs highlight how structured logic in C++ transforms real-world decisions into executable actions. Whether it's evaluating numerical signs, assigning academic grades, or pinpointing coordinates, each task reinforces the power of conditional constructs and operators. Practical logic meets programmable clarity.💡💻

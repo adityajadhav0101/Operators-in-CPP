@@ -1,4 +1,4 @@
-# 💻 Decision Making in C++
+# 💻 Operators in C++
 ## 🎯 Aim
 
 This repository contains three C++ programs that demonstrate decision-making using conditional constructs:

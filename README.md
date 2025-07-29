@@ -1,33 +1,73 @@
-**💻 "POSITIVE-NEGATIVE CHECKER" & "GRADING SYSTEM" & "POINT COORDINATES"**
+# 💻 Decision Making in C++
+## 🎯 Aim
 
-**🎯 Aim**
+This repository contains three C++ programs that demonstrate decision-making using conditional constructs:
 
-a) To determine whether a number is positive, negative, or zero.<br>
-b) To assign a grade based on marks entered by the user.<br>
-c) To identify the quadrant or axis location of a point using its coordinates.<br>
+- 🔢 **Positive-Negative Checker**: Determines whether a number is positive, negative, or zero.
+- 📝 **Grading System**: Assigns a grade based on marks entered by the user.
+- 📍 **Point Coordinates**: Identifies the quadrant or axis location of a point using its coordinates.
 
-**📚 Theory**
+---
 
-C++ is a structured, high-performance programming language that supports procedural and object-oriented paradigms. This experiment demonstrates decision-making and logical evaluation using control statements and operators. The programs utilize various types of operators, including:
+## 📚 Theory
 
-🔹 **Relational operators** (>, <, >=, <=, ==, !=) for comparing values<br>
-🔹 **Logical operators** (&&, ||, !) for combining conditions<br>
-🔹 **Assignment operator** (=) for storing values<br>
-🔹 **Arithmetic operators** (+, -, *, /) for basic calculations (used in grading logic or coordinate math)<br>
-These operators are applied within _if-else_ constructs to evaluate conditions and guide program flow. Input is captured using _cin_, and output is displayed using _cout_, both part of the _iostream_ library.
+C++ is a structured, high-performance programming language that supports both procedural and object-oriented paradigms. These programs showcase how decision-making and logical evaluation are implemented using control statements and operators.
 
-🔢 **Part a) "Positive-Negative Checker"**
+### 🔧 Operators Used
 
-The program accepts an integer and uses relational operators to check its sign. Logical branching via _if-else_ determines whether the number is positive, negative, or zero, and displays the result accordingly.
+- **Relational Operators**: `>`, `<`, `>=`, `<=`, `==`, `!=`  
+  Used for comparing values.
 
-📝 **Part b) "Grading System"**
+- **Logical Operators**: `&&`, `||`, `!`  
+  Used for combining multiple conditions.
 
-Marks are entered by the user and evaluated using relational and logical operators. Based on predefined ranges, the program assigns grades (e.g., O, A+, A, B+, B) using nested _if-else_ conditions. Arithmetic may be used for calculating percentages or averages if extended.
+- **Assignment Operator**: `=`  
+  Used for storing values in variables.
 
-📍 **Part c) "Point Coordinates"**
+- **Arithmetic Operators**: `+`, `-`, `*`, `/`  
+  Used for basic calculations (grading logic or coordinate math).
 
-The program takes two inputs (x and y) and uses relational and logical operators to determine the point’s location. It identifies the quadrant (I–IV), origin, or axis by evaluating the signs and values of the coordinates.
+These operators are applied within `if-else` constructs to evaluate conditions and guide program flow. Input is captured using `cin`, and output is displayed using `cout`, both part of the `iostream` library.
 
-**🧠 Conclusion**
+---
 
-These programs highlight how structured logic in C++ transforms real-world decisions into executable actions. Whether it's evaluating numerical signs, assigning academic grades, or pinpointing coordinates, each task reinforces the power of conditional constructs and operators. Practical logic meets programmable clarity.💡💻
+## 🔢 Program Overview
+
+### ✅ Positive-Negative Checker
+
+- Accepts an integer input.
+- Uses relational operators to check its sign.
+- Displays whether the number is **positive**, **negative**, or **zero**.
+
+### 📝 Grading System
+
+- Accepts marks from the user.
+- Evaluates the input using relational and logical operators.
+- Assigns grades based on predefined ranges:
+  - `O` for marks ≥ 90
+  - `A+` for marks ≥ 80
+  - `A` for marks ≥ 70
+  - `B+` for marks ≥ 60
+  - `B` for marks ≥ 50
+  - `F` for marks < 50
+
+### 📍 Point Coordinates
+
+- Accepts two inputs: `x` and `y`.
+- Determines the location of the point:
+  - **Origin** if both `x` and `y` are 0
+  - **X-axis** if `y` is 0
+  - **Y-axis** if `x` is 0
+  - **Quadrant I–IV** based on the signs of `x` and `y`
+
+---
+
+## 🧠 Conclusion
+
+These programs highlight how structured logic in C++ transforms real-world decisions into executable actions. Whether it's evaluating numerical signs, assigning academic grades, or pinpointing coordinates, each task reinforces the power of:
+
+- ✅ Conditional constructs
+- 🔍 Relational and logical operators
+- 🧩 Structured programming
+
+Mastering these fundamentals is essential for building intelligent, responsive applications.
